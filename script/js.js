@@ -4,7 +4,7 @@ window.onload = function(){
     const numbers = document.getElementsByClassName("number")
     
     btnDisplay.addEventListener('click', function(){
-      let num1 =  numbers[0].value;
+      let num1 =  parseInt(numbers[0].value);
       let num2 = numbers[1];
       let total = addtwoNumbers(num1, num2);
     })
